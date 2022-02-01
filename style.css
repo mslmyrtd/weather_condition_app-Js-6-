@@ -1,7 +1,7 @@
 /* RESET STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
-  --bg_main: #0c6396;
+  --bg_main: #af388b;
   --text_light: #fff;
   --text_med: #53627c;
   --text_dark: #1e2432;
@@ -53,6 +53,9 @@ body {
   background: var(--bg_main);
   color: var(--text_dark);
   padding: 70px;
+  background-image: url(./after_noon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
